@@ -1,0 +1,12 @@
+with open("requirements.txt", "w") as f:
+    f.write("""\
+pandas
+matplotlib
+numpy
+pymc3
+arviz
+seaborn
+jupyter
+ipykernel
+flask
+""")
